@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contract", "src\Contract\Contract.csproj", "{6C1E90F7-5163-4E05-B7AA-AE907B2DFEBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implementation", "src\Impl\Implementation.csproj", "{100D8BA6-D5AE-482E-AA6C-8306199812F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{C4F840A6-AF86-4A73-926B-9FE0FAF41553}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configuration.UnitTest", "src\Test\UnitTest\Configuration.UnitTest.csproj", "{9415363B-6903-4266-9CF7-A8998D2D8ACF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C1E90F7-5163-4E05-B7AA-AE907B2DFEBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C1E90F7-5163-4E05-B7AA-AE907B2DFEBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C1E90F7-5163-4E05-B7AA-AE907B2DFEBA}.Debug|x64.ActiveCfg = Debug|x64
+		{6C1E90F7-5163-4E05-B7AA-AE907B2DFEBA}.Debug|x64.Build.0 = Debug|x64
+		{6C1E90F7-5163-4E05-B7AA-AE907B2DFEBA}.Debug|x86.ActiveCfg = Debug|x86
+		{6C1E90F7-5163-4E05-B7AA-AE907B2DFEBA}.Debug|x86.Build.0 = Debug|x86
+		{6C1E90F7-5163-4E05-B7AA-AE907B2DFEBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C1E90F7-5163-4E05-B7AA-AE907B2DFEBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C1E90F7-5163-4E05-B7AA-AE907B2DFEBA}.Release|x64.ActiveCfg = Release|x64
+		{6C1E90F7-5163-4E05-B7AA-AE907B2DFEBA}.Release|x64.Build.0 = Release|x64
+		{6C1E90F7-5163-4E05-B7AA-AE907B2DFEBA}.Release|x86.ActiveCfg = Release|x86
+		{6C1E90F7-5163-4E05-B7AA-AE907B2DFEBA}.Release|x86.Build.0 = Release|x86
+		{100D8BA6-D5AE-482E-AA6C-8306199812F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{100D8BA6-D5AE-482E-AA6C-8306199812F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{100D8BA6-D5AE-482E-AA6C-8306199812F1}.Debug|x64.ActiveCfg = Debug|x64
+		{100D8BA6-D5AE-482E-AA6C-8306199812F1}.Debug|x64.Build.0 = Debug|x64
+		{100D8BA6-D5AE-482E-AA6C-8306199812F1}.Debug|x86.ActiveCfg = Debug|x86
+		{100D8BA6-D5AE-482E-AA6C-8306199812F1}.Debug|x86.Build.0 = Debug|x86
+		{100D8BA6-D5AE-482E-AA6C-8306199812F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{100D8BA6-D5AE-482E-AA6C-8306199812F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{100D8BA6-D5AE-482E-AA6C-8306199812F1}.Release|x64.ActiveCfg = Release|x64
+		{100D8BA6-D5AE-482E-AA6C-8306199812F1}.Release|x64.Build.0 = Release|x64
+		{100D8BA6-D5AE-482E-AA6C-8306199812F1}.Release|x86.ActiveCfg = Release|x86
+		{100D8BA6-D5AE-482E-AA6C-8306199812F1}.Release|x86.Build.0 = Release|x86
+		{9415363B-6903-4266-9CF7-A8998D2D8ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9415363B-6903-4266-9CF7-A8998D2D8ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9415363B-6903-4266-9CF7-A8998D2D8ACF}.Debug|x64.ActiveCfg = Debug|x64
+		{9415363B-6903-4266-9CF7-A8998D2D8ACF}.Debug|x64.Build.0 = Debug|x64
+		{9415363B-6903-4266-9CF7-A8998D2D8ACF}.Debug|x86.ActiveCfg = Debug|x86
+		{9415363B-6903-4266-9CF7-A8998D2D8ACF}.Debug|x86.Build.0 = Debug|x86
+		{9415363B-6903-4266-9CF7-A8998D2D8ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9415363B-6903-4266-9CF7-A8998D2D8ACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9415363B-6903-4266-9CF7-A8998D2D8ACF}.Release|x64.ActiveCfg = Release|x64
+		{9415363B-6903-4266-9CF7-A8998D2D8ACF}.Release|x64.Build.0 = Release|x64
+		{9415363B-6903-4266-9CF7-A8998D2D8ACF}.Release|x86.ActiveCfg = Release|x86
+		{9415363B-6903-4266-9CF7-A8998D2D8ACF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9415363B-6903-4266-9CF7-A8998D2D8ACF} = {C4F840A6-AF86-4A73-926B-9FE0FAF41553}
+	EndGlobalSection
+EndGlobal
